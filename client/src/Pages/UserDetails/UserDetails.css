@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+  }
+  
+  .userPage {
+    width: 90%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+  }
+  
+  .buttons {
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .userTable table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+  }
+  
+  .userTable table thead th {
+    background-color: rgba(13, 13, 182, 0.863);
+    color: wheat;
+    padding: 10px;
+  }
+  
+  .userTable table tbody td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Button styles */
+  .user-login,
+  .edit-user,
+  .delete-user {
+    background-color: rgb(219, 203, 191);
+    border-radius: 5px;
+  }
+  
+  .user-login:hover,
+  .edit-user:hover,
+  .delete-user:hover {
+    background-color: rgb(98, 183, 233);
+    border-radius: 8px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .userPage {
+      padding: 30px;
+    }
+  
+    .buttons {
+      max-width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .userTable table {
+      margin-top: 20px;
+      overflow-x: auto;
+    }
+  
+    .userTable table thead th,
+    .userTable table tbody td {
+      padding: 8px;
+    }
+  }
+  
