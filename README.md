@@ -7,9 +7,11 @@ In jwt.js file - authenticateToken function is for check authentication when we 
 In otp.js file for OTP (One-Time Password) generation 
 In Details-crudModel.js file contains Schema to store the users details
 
+
 Node.js User Authentication and CRUD Operations
 This repository contains Node.js code for user authentication using JWT (JSON Web Tokens), OTP (One-Time Password) generation and verification, as well as CRUD (Create, 
 Read, Update, Delete) operations for user details.
+
 
 Installation
 Clone the repository:
@@ -32,6 +34,7 @@ EMAIL_PASS=your-email-password
 Usage
 Authentication Middleware
 The authenticateToken middleware verifies JWT tokens sent with requests to secure routes.
+
 
 OTP Generation and Verification
 OTP generation is handled by the generateOTP function using otp-generator and bcrypt.
