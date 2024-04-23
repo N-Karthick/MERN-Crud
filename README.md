@@ -1,6 +1,8 @@
 The file contains Front End as Client folder and Back End as Server folder
 
 ********************* In Server Folder *******************
+
+
 In jwt.js file - authenticateToken function is for check authentication when we hit an API 
 In otp.js file for OTP (One-Time Password) generation 
 In Details-crudModel.js file contains Schema to store the users details
