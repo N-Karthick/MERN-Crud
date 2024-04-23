@@ -66,3 +66,73 @@ bash
 Copy code
 npm start
 The server will run on http://localhost:4004 by default.
+
+
+**************** In Client Folder *****************
+In pages folder their are Login ,Signup ,Update ,Userdetail,Single User and Delete page
+In action.js, create a redux store 
+
+Table of Contents
+Installation
+Usage
+Features
+Technologies Used
+Folder Structure
+Contributing
+License
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/project-name.git
+Navigate to the project directory:
+bash
+Copy code
+cd project-name
+Install dependencies:
+bash
+Copy code
+npm install
+Usage
+Start the development server:
+bash
+Copy code
+npm start
+Open the application in your browser:
+arduino
+Copy code
+http://localhost:3000
+Features
+Describe the main features of your project here.
+Technologies Used
+React
+Redux
+Node.js
+Express.js
+MongoDB (or any other database)
+Axios
+React Router
+Material-UI (or any other UI library)
+Other technologies you've used
+Folder Structure
+Briefly explain the structure of your project's folders and files. For example:
+
+MERN-Crud /
+│
+├── client/         # Frontend code
+│   ├── public/     # Public assets
+│   ├── src/        # React components and Redux setup
+│   ├── index.js    # Entry point for frontend
+│
+├── server/         # Backend code
+│   ├── routes/     # API routes
+│   ├── models/     # Database models
+│   ├── controllers/# Request handlers
+│   ├── config.js   # Configuration files
+│   ├── server.js   # Entry point for backend
+│
+├── README.md       # Project README file
+├── package.json    # NPM package configuration
+└── .gitignore      # Git ignore file
+
+
